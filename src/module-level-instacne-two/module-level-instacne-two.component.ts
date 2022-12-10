@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ModuleLevelInstacneService } from '../module-level-instacne.service';
+import { ModuleLevelInstacneService } from '../module-level-instacne/module-level-instacne.service';
 
 @Component({
   selector: 'app-module-level-instacne-two',

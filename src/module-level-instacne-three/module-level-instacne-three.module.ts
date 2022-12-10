@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ModuleLevelInstacneThreeComponent } from './module-level-instacne-three.component';
-import { ModuleLevelInstacneService } from '../module-level-instacne.service';
+import { ModuleLevelInstacneService } from '../module-level-instacne/module-level-instacne.service';
 
 @NgModule({
   imports: [CommonModule],

@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { ModuleLevelInstacneService } from '../module-level-instacne.service';
+import { ModuleLevelInstacneService } from './module-level-instacne.service';
 import { ModuleLevelInstacneCopyComponent } from './module-level-instacne-copy.component';
 import { ModuleLevelInstacneComponent } from './module-level-instacne.component';
 
