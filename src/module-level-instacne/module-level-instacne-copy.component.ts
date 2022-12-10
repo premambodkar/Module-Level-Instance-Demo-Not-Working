@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { ModuleLevelInstacneService } from '../module-level-instacne.service';
 
 @Component({
-  selector: 'app-module-level-instacne-three',
-  template: `<p>app-module-level-instacne-three
+  selector: 'app-module-level-instacne-copy',
+  template: `<p>app-module-level-instacne-copy
     <br>
     <span>Provided in Module Level service instance</span>
     <br>
@@ -13,9 +13,9 @@ import { ModuleLevelInstacneService } from '../module-level-instacne.service';
   </p>`,
   styles: [
     `p{
-      border:thick solid red;
+      border:thick solid blue;
       padding: 10px;
-      color:red;
+      color:blue;
     }
     .btn{
       padding:10px;
@@ -23,7 +23,7 @@ import { ModuleLevelInstacneService } from '../module-level-instacne.service';
     }`,
   ],
 })
-export class ModuleLevelInstacneThreeComponent {
+export class ModuleLevelInstacneCopyComponent {
   constructor(readonly service: ModuleLevelInstacneService) {}
 
   changeCounter() {

@@ -5,6 +5,8 @@ import { ModuleLevelInstacneService } from '../module-level-instacne.service';
   selector: 'app-module-level-instacne-two',
   template: `<p>app-module-level-instacne-two
     <br>
+    <span>Provided in Component Level service instance</span>
+    <br>
     <span>Counter {{ service.counter }}</span>
     <br>
     <button class="btn" (click)="changeCounter()">Update Counter</button>
@@ -20,6 +22,7 @@ import { ModuleLevelInstacneService } from '../module-level-instacne.service';
 
     }`,
   ],
+  providers: [ModuleLevelInstacneService],
 })
 export class ModuleLevelInstacneTwoComponent {
   constructor(readonly service: ModuleLevelInstacneService) {}
